@@ -1,0 +1,221 @@
+body{
+    background-color:lightgray;
+}
+.header{
+    width:1745px;
+    background-color:black;
+    height:200px;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.header h1{
+    color:blue;
+    text-align:center;
+    font-size:72px;
+    font-family:cursive;
+}
+.calculator{
+    background-color:black;
+    height:500px;
+    width:400px;
+    position:absolute;
+    top:30%;
+    right:40%;
+}
+#screen{
+    background-color:lightblue;
+    height:80px;
+    width:350px;
+    position:absolute;
+    top:35%;
+    right:40.8%;
+}
+#C{
+    background-color:darkblue;
+    position:absolute;
+    top:47%;
+    right:54%;
+    width:120px;
+    height:60px;
+    font-size:36px;
+    color:white;
+}
+#CE{
+    background-color:darkblue;
+    position:absolute;
+    top:47%;
+    right:46.3%;
+    width:120px;
+    height:60px;
+    font-size:36px;
+    color:white;
+}
+#D{
+    background-color:darkred;
+    position:absolute;
+    top:47%;
+    right:40.6%;
+    width:80px;
+    height:60px;
+    font-size:36px;
+    color:white;
+}
+#seven{
+    background-color:lightgrey;
+    position:absolute;
+    top:55%;
+    right:56.3%;
+    width:80px;
+    height:60px;
+    font-size:36px;
+    color:black;
+}
+#eight{
+    background-color:lightgrey;
+    position:absolute;
+    top:55%;
+    right:51.3%;
+    width:80px;
+    height:60px;
+    font-size:36px;
+    color:black;
+}
+#nine{
+    background-color:lightgrey;
+    position:absolute;
+    top:55%;
+    right:46.3%;
+    width:80px;
+    height:60px;
+    font-size:36px;
+    color:black;
+}
+#M{
+    background-color:darkred;
+    position:absolute;
+    top:55%;
+    right:40.7%;
+    width:80px;
+    height:60px;
+    font-size:36px;
+    color:white;
+}
+#four{
+    background-color:lightgrey;
+    position:absolute;
+    top:63%;
+    right:56.3%;
+    width:80px;
+    height:60px;
+    font-size:36px;
+    color:black;
+}
+#five{
+    background-color:lightgrey;
+    position:absolute;
+    top:63%;
+    right:51.3%;
+    width:80px;
+    height:60px;
+    font-size:36px;
+    color:black;
+}
+#six{
+    background-color:lightgrey;
+    position:absolute;
+    top:63%;
+    right:46.3%;
+    width:80px;
+    height:60px;
+    font-size:36px;
+    color:black;
+}
+#one{
+    background-color:lightgrey;
+    position:absolute;
+    top:71%;
+    right:56.3%;
+    width:80px;
+    height:60px;
+    font-size:36px;
+    color:black;
+}
+#two{
+    background-color:lightgrey;
+    position:absolute;
+    top:71%;
+    right:51.3%;
+    width:80px;
+    height:60px;
+    font-size:36px;
+    color:black;
+}
+#three{
+    background-color:lightgrey;
+    position:absolute;
+    top:71%;
+    right:46.3%;
+    width:80px;
+    height:60px;
+    font-size:36px;
+    color:black;
+}
+#zero{
+    background-color:lightgrey;
+    position:absolute;
+    top:79%;
+    right:56.3%;
+    width:80px;
+    height:60px;
+    font-size:36px;
+    color:black;
+}
+#dot{
+    background-color:lightgrey;
+    position:absolute;
+    top:79%;
+    right:51.3%;
+    width:80px;
+    height:60px;
+    font-size:36px;
+    color:black;
+}
+#equal{
+    background-color:lightgrey;
+    position:absolute;
+    top:79%;
+    right:46.3%;
+    width:80px;
+    height:60px;
+    font-size:36px;
+    color:black;
+}
+#S{
+    background-color:darkred;
+    position:absolute;
+    top:63%;
+    right:40.6%;
+    width:80px;
+    height:60px;
+    font-size:36px;
+    color:white;
+}
+#A{
+    background-color:darkred;
+    position:absolute;
+    top:71%;
+    right:40.6%;
+    width:80px;
+    height:128px;
+    font-size:36px;
+    color:white;
+}
+@media screen and (max-width: 375px) {
+    body{
+    border: 1px solid;
+        font-size: 1em;
+        line-height: 1em;
+    }
+
+}
