@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,39 +11,35 @@
     <div class="header">
         <h1>CALCULATOR</h1>
     </div>
-    <div class="main">
-        <div class="calculator"></div>
-        <div id="screen"></div>
-        <div class="keys">
-            <div class="operands">
-                <button id="zero"type="button">0</button>
-                <button id="one"type="button">1</button>
-                <button id="two"type="button">2</button>
-                <button id="three"type="button">3</button>
-                <button id="four"type="button">4</button>
-                <button id="five"type="button">5</button>
-                <button id="six"type="button">6</button>
-                <button id="seven"type="button">7</button>
-                <button id="eight"type="button">8</button>
-                <button id="nine"type="button">9</button>
-                <button id="dot"type="button">.</button>
+    <div class="content">
+        <div class="calculator absolute">
+            <div class="absolute" id="screen"></div>
+            <div class="keys">
+                <button class="blue C" type="button">C</button>
+                <button class="blue CE" type="button">CE</button>
+
+                <button class="white operands" type="button">7</button>
+                <button class="white operands" type="button">8</button>
+                <button class="white operands" type="button">9</button>
+                <button class="red operators" type="button">÷</button>
+
+                <button class="white operands" type="button">4</button>
+                <button class="white operands" type="button">5</button>
+                <button class="white operands" type="button">6</button>
+                <button class="red operators" type="button">×</button>
+
+                <button class="white operands" type="button">1</button>
+                <button class="white operands" type="button">2</button>
+                <button class="white operands" type="button">3</button>
+                <button class="red operators" type="button">-</button>
+                
+                <button class="white operands" type="button">0</button>
+                <button class="white operands" type="button">.</button>
+                <button class="white equal" type="button">=</button>
+                <button class="red operators" type="button">+</button>
+               
             </div>
-            <div class="operators">
-                <button id="A"type="button">+</button>
-                <button id="S"type="button">-</button>
-                <button id="M"type="button">×</button>
-                <button id="D" type="button">÷</button>
-
-            </div>
-            <button id="equal"type="button">=</button>
-            <div class="clear">
-            <button id="C" type="button">C</button>
-            <button id="CE"type="button">CE</button>
-            </div>
-
-
-
-        </div>
+        </div>                
     </div>
 </body>
 </html>
