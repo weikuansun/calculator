@@ -30,17 +30,17 @@ var d={
 };
 var previous=[];
 function apply_click_handlers(){
-    $('.operands > button').click(receive_operand);
-    $('.operators > button').click(receive_operator);
-    $('#equal').click(get_result);
-    $('#C').click(function(){
+    $('.operands').click(receive_operand);
+    $('.operators').click(receive_operator);
+    $('.equal').click(get_result);
+    $('.C').click(function(){
         output="";
         input_array=[""];
         input_index=0;
         count=0;
         document.getElementById('screen').innerHTML =0;
     });
-    $('#CE').click(function(){
+    $('.CE').click(function(){
         switch(input_array[input_array.length-1]){
             case "+":
             case "-":
